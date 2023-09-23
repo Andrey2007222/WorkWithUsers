@@ -1,0 +1,18 @@
+﻿<Window x:Class="работа_с_пользователем.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:работа_с_пользователем"
+        mc:Ignorable="d"
+        Title="Window3" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnAddUser" Click="btnAddUser_Click" Content="Add user" Margin="611,33,49,371"/>
+        <Button x:Name="btnChangeUser" Click="btnChangeUser_Click" Content="Change user" Margin="611,97,49,303"/>
+        <Button x:Name="btnDeleteUser" Click="btnDeleteUser_Click" Content="Delete user" Margin="611,161,49,241"/>
+        <DockPanel LastChildFill="False" Margin="0,10,276,10">
+            <ListBox DisplayMemberPath="Name"></ListBox>
+        </DockPanel>
+    </Grid>
+
+</Window>
